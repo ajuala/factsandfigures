@@ -11881,6 +11881,35 @@ textarea.form-control-lg {
   font-family: "Playfair Display", serif;
 }
 
+.pri-neutral {
+  background-color: #f8f5ee;
+}
+
+.stock-photo {
+  width: 100%;
+  max-width: 720px;
+  overflow: hidden;
+}
+.stock-photo > img {
+  width: 100%;
+  height: auto;
+  max-width: 1280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stock-photo > p {
+  width: 80%;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.required::after {
+  color: red;
+  content: "*";
+  margin-left: 0.375em;
+}
+
 #site-footer {
   background-color: #716346;
   color: #e9ecef;
